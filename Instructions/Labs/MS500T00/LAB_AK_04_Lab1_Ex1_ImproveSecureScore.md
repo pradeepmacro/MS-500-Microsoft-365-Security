@@ -13,7 +13,7 @@ Microsoft Security center constantly reviews active recommendations and calculat
 
 ### Task 1: View the secure score in the Microsoft 365 Security Portal.
 
-1.  Login to LON-CL1 virtual machine as Administrator with the password: **Pa55w.rd**.  Go to the Microsoft 365 security dashboard (https://security.microsoft.com) and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
+1.  Login to **LON-CL1** virtual machine as Administrator with the password: `Pa55w.rd`.  Go to the Microsoft 365 security dashboard `https://security.microsoft.com` and login with Holly's global admin credentials, select **Microsoft Secure score** on the dashboard.
 
 2.  At the top you can see Secure score highlights:
 
@@ -54,7 +54,7 @@ The Secure Score History view also lists specific actions you have taken and the
 
 6.  Make sure "Require users to register when signing in?" is marked **Yes**.
  
-7.  Change the Number of days before users are asked to re-confirm their authentication information to **90**.
+7.  Change the Number of days before users are asked to re-confirm their authentication information to `90`.
 
 8.  Click **Save**.
 
