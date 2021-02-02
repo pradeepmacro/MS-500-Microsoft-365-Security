@@ -7,7 +7,7 @@
 When you need to take on an Azure AD directory role, you can request activation by using the **My roles** navigation option in PIM.
 
 
-1.  In the Azure Portal, signed-in as Holly, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  In the Azure Portal, signed-in as Holly, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
@@ -17,10 +17,10 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/a7af9dbc-d901-4c9e-9cd5-63fd30726639.png)
 
-1.  Click **Billing Administrator** and add Patti Fernandez back into the **Billing Administrators** role.
+1.  Click `Billing Administrator` and add Patti Fernandez back into the **Billing Administrators** role.
 
 
-1.  Open an **In Private** browsing session and navigate to **https://portal.azure.com** and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
+1.  Open an **In Private** browsing session (CTRL + SHIFT + P in IE) and navigate to `https://portal.azure.com` and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
@@ -36,7 +36,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 
 1.  Click **Verify your identity before proceeding** if this appears here. You only have to authenticate once per session. Run through the wizard to authenticate Patti.
  
-1.  Once returned to the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  Once returned to the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
 1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick start blade.
 
@@ -72,7 +72,7 @@ When you activate a role in PIM, it can take up to 10 minutes before you can acc
 You can view the status of your pending requests to activate.
 
 
-1.  Still signed in as **Patti**, in the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  Still signed in as **Patti**, in the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
 1.  Click **Azure AD Roles**.
 
