@@ -20,7 +20,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 1.  Click `Billing Administrator` and add Patti Fernandez back into the **Billing Administrators** role.
 
 
-1.  Open an **In Private** browsing session (CTRL + SHIFT + P in IE) and navigate to `https://portal.azure.com` and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
+1.  Open an **In Private** browsing session and navigate to `https://portal.azure.com` and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
