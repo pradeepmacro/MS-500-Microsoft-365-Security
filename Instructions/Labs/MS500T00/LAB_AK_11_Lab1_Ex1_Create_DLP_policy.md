@@ -7,9 +7,9 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have Micro
 
 In this exercise you will create a Data Loss Prevention policy in the Security & Compliance Center to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains U.S. Social Security addresses.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
-2. In **Microsoft Edge**, the Office 365 Security & Compliance Center tab should still be open. If so, select it and proceed to the next step. If you closed it, then in a new tab, navigate to **https://protection.office.com**.
+2. In **Microsoft Edge**, the Office 365 Security & Compliance Center tab should still be open. If so, select it and proceed to the next step. If you closed it, then in a new tab, navigate to `https://protection.office.com`.
 
 3. In the **Security &amp; Compliance Center**, in the left navigation pane, select **Data loss prevention** and then select **Policy**.
 
@@ -17,7 +17,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 5. On the **Start with a template or create a custom policy** page, you want to select **Custom** in the left pane and **Custom policy** in the middle pane; however, by default, both these options should already be selected (if not, then select them now), so simply select **Next**.
 
-6. In the **Name your policy** page, type **Social Security DLP Policy** in the **Name** field and **Protect social security numbers from being shared.** in the **Description** field. Select **Next**.
+6. In the **Name your policy** page, type `Social Security DLP Policy` in the **Name** field and `Protect social security numbers from being shared` in the **Description** field. Select **Next**.
 
 7. On the **Choose locations** page, select the **Protect content in Exchange email, Teams chats, and channel messages and OneDrive and SharePoint documents** option and then select **Next**.
 
@@ -29,7 +29,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 11. In the Sensitive info types window, select **(+) Add**.
 
-12. In the search field type **social** and wait until the search results are displayed.
+12. In the search field type `social` and wait until the search results are displayed.
 
 13. In the list of search results, select the **U.S. Social Security Number (SSN)** check box, and then select **Add**.
 
