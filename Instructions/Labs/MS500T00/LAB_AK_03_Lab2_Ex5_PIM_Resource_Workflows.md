@@ -3,13 +3,13 @@
 
 ### Task 1:  Configure the Global Administrator role to require approval.
 
-1.  You should still be logged in as Holly from the previous exercise.  Open **Azure AD Privileged Identity Management**.
+1.  You should still be logged in as Holly from the previous exercise.  Open `Azure AD Privileged Identity Management`.
 
 1.  Click **Azure AD roles**.
 
 1.  Click **Settings** 
 
-1.  Select **Global Administrator**.
+1.  Select `Global Administrator`.
 
 1.  Click **Edit**, scroll down and mark **Require Approval to activate**.  
 
@@ -32,7 +32,7 @@
 
 2.  Click **Next** and then click **Assign**.
 
-1.  Open an in Private Browsing session and login to https://portal.azure.com as Patti Fernandez.  You might still have this browser open from earlier exercise.
+1.  Open an in Private Browsing session and login to `https://portal.azure.com` as Patti Fernandez.  You might still have this browser open from earlier exercise.
 
 1.  Open **Azure AD Privileged Identity Management**.
 
@@ -87,4 +87,3 @@ As a delegated approver, you will receive an email notification when an Azure re
 
 
 # continue to exercise 6
-
