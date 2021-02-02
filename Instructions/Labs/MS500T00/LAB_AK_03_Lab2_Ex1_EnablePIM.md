@@ -8,7 +8,7 @@ In this lab, you will learn how to use Azure Privileged Identity Management (PIM
 
 ### Task 1: Discover resources
 
-1.  If you are still logged into the Microsoft 365 admin center as MOD Adminsitrator switch users to Holly Dickson. Go to the Azure Portal (https://portal.azure.com/) as Global Administrator Holly Dickson, click **More services** and search for and select **Azure AD Privileged Identity Management**.
+1.  If you are still logged into the Microsoft 365 admin center as MOD Adminsitrator switch users to Holly Dickson. Go to the **Azure Portal** `https://portal.azure.com/` and sign in as Global Administrator Holly Dickson, click **All services** then search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
@@ -51,6 +51,3 @@ In this lab, you will learn how to use Azure Privileged Identity Management (PIM
     **Note**: If by refreshing the portal in the browser does not display PIM as being enabled then log out and back into the Azure Portal.
 
 # Continue to exercise 2
-
-
-
