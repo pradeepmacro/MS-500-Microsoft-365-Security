@@ -11,17 +11,17 @@ In this task, you will begin implementing Adatum’s Microsoft 365 pilot project
 
 In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Office 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
-1. You should still be logged into your domain controller 1 VM as the **LON-DC1\admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **MOD Administrator** (the **MA** circle) in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
+1. You should still be logged into your domain controller 1 VM as the **LON-DC1\Admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **MOD Administrator** (the **MA** circle) in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
 	
 	**Important:** When signing out of one user account and signing in as another, you should close all your browser tabs except for your current tab. This is a best practice that helps to avoid any confusion by closing the windows associated with the prior user. Take a moment now and close all other browser tabs except for the **Sign out** tab. 
 	
-2. In Internet Explorer browser, navigate to **https://portal.office.com**. 
+2. In Internet Explorer browser, navigate to `https://portal.office.com/`. 
 
 3. In the **Pick an account** window, only the admin account that you just logged out from appears. Select **Use another account**. 
 
 4. In the **Sign in** window, enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**.
 
-5. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.
+5. In the **Enter password** window, enter `Pa55w.rd` and then select **Sign in**.
 
 6. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
 
@@ -29,20 +29,20 @@ In this task, you will create two new groups and then manage the groups by assig
 
 8. If a survey window appears, select **Cancel**.
 
-9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Groups**. 
+9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Active Groups**. 
 
-10. In the **Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
+10. In the **Active Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
 
-11. In the **Choose a group type** window, select **Office 365 (recommended)** and then select **Next**. 
+11. In the **Choose a group type** window, select **Microsoft 365 (recommended)** and then select **Next**. 
 
-12. In the **Set up the basics** window, enter **Inside Sales** in the **Name** field, and then enter **Collaboration group for the Inside Sales team.** in the **Description** field. Select **Next**.
+12. In the **Set up the basics** window, enter `Inside Sales` in the **Name** field, and then enter `Collaboration group for the Inside Sales team.` in the **Description** field. Select **Next**.
 
 13. In the **Assign Owners** window, you will assign Allan Deyoung and Patti Fernandez as owners of this group. 
-	- Enter **Allan** in the **Owners** field. In the drop-down menu that appears, select **Allan Deyoung**. 
-	- Enter **Patti** in the **Owners** field. In the drop-down menu that appears, select **Patti Fernandez**. 
+	- Enter `Allan` in the **Owners** field. In the drop-down menu that appears, select **Allan Deyoung**. 
+	- Enter `Patti` in the **Owners** field. In the drop-down menu that appears, select **Patti Fernandez**. 
 	- Select **Next**.
 
-14. In the **Edit settings** window, enter **insidesales** in the **Group email address** field. Under the **Privacy** section, verify the **Public** option is selected (select it if need be), and under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** checkbox is selected (select it if need be). Select **Next**.
+14. In the **Edit settings** window, enter `insidesales` in the **Group email address** field. Under the **Privacy** section, verify the **Public** option is selected (select it if need be), and under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** checkbox is selected (select it if need be). Select **Next**.
 
 15. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
 
@@ -52,11 +52,11 @@ In this task, you will create two new groups and then manage the groups by assig
 
 17. Repeat steps 10-16 to add a new group with the following information:
 
-	- Group type: **Security**
+	- Group type: `Security`
 
-	- Name: **IT Admins**
+	- Name: `IT Admins`
 
-	- Description: **IT administrative personnel**<br/>
+	- Description: `IT administrative personnel` <br/>
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
@@ -101,7 +101,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 **NOTE:** You should have installed the Windows Azure Active Directory PowerShell Module in the prior lab.   
 
-1. If you’re not logged into the LON-DC1 VM as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
+1. If you’re not logged into the **LON-DC1** VM as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
 
 2. If Windows PowerShell is still open from the previous exercise, select the **Windows PowerShell** icon on the taskbar; otherwise, you must open an elevated instance of Windows PowerShell just as you did before. Maximize your PowerShell window.
 
@@ -109,13 +109,13 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You must run the following command to connect with an authenticated account to use Active Directory cmdlet requests: <br/> 
 	
-		‎**Connect-AzureAD**   
+		‎`Connect-AzureAD`   
 
 	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
-		‎**Get-AzureADMSDeletedGroup**   
+		‎`Get-AzureADMSDeletedGroup`   
 
 	- Before you can restore this deleted group, you must first copy the Object ID of the Inside Sales group that appears in the table of deleted groups. When you perform the next command to restore the group, you will use this ID to identify the group that you want restored. <br/>
 	
@@ -125,7 +125,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 		‎**Note:** Replace the {objectId} in the following command with the ID number for the Inside Sales group that you copied in the prior step. When you enter the following Restore command and you get to the point of pasting in the {objectId} parameter, press Ctrl-V to paste in the Id. Then press Enter to run the command. **NOTE:** If nothing happens when you hit Enter, then extraneous hidden characters may have been pasted in following the object ID. If this occurs, retype the command and hit the Delete key a couple of times after pressing Ctrl-V, and then press Enter again.  <br/>
 
-		‎**Restore-AzureADMSDeletedDirectoryObject -Id {objectId}**  
+		‎`Restore-AzureADMSDeletedDirectoryObject -Id {objectId}`  
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
@@ -143,4 +143,3 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 
 # End lab
-
