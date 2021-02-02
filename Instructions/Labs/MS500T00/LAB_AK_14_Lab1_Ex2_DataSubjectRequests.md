@@ -8,9 +8,9 @@ Data subject requests (DSRs) are used to search for and extract all known inform
 
 Holly Dickson is Adatum’s Security and Compliance Administrator. In her role as the company’s Microsoft 365 Global Administrator, she is responsible for implementing Adatum’s Microsoft 365 pilot project. Since Adatum has several European subsidiaries, properly managing GDPR data subject requests is a key task that must be tested so that the company can successfully implement this feature. In this task, Holly will create a DSR for herself on behalf of a request made by the Human Resource department.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
 
-2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: **https://protection.office.com**.
+2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com` .
 
 3. In the **Security and Compliance center**, in the left navigation pane select **Data privacy**, and then under it select **Data subject requests**.  
 
@@ -20,9 +20,9 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 
 5. In the **Name your case** page, enter the following information and then select **Next**:
 
-	- Name: **Holly Dickson Subject Request**
+	- Name: `Holly Dickson Subject Request`
 
-	- Description: **This is a test of the Data Subject Request resource to pulling information on the subject Holly Dickson.**
+	- Description: `This is a test of the Data Subject Request resource to pulling information on the subject Holly Dickson`.
 
 6. In the **Request details** page, select the **Data subject (the person who filed this request)** field, which displays a list of users. Select **Holly Dickson** and then select **Next**.
 
@@ -30,7 +30,7 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 
 8. In the **Successfully created new DSR case** window, select **Show me search results**.
 
-9. A new **Search query** window will appear and begin the query. In the bottom left corner of the screen, the status of the query is displayed. Wait for the status to show **Completed** this may take many minutes. 
+9. A new **Search query** window will appear and begin the query. In the bottom left corner of the screen, the status of the query is displayed. Wait for the status to show **Completed** this may take several minutes. 
 
 **Note:** The reason why you were instructed to add Holly to the eDiscovery Manager role group in the prior exercise rather than at the start of this one is that it takes several minutes for permissions to successfully propagate. If you had assigned Holly to this role group just prior to this query, you would have received error messages involving parameter fields because her permissions would not have completed propagating. By adding Holly to this role group in the prior exercise, enough time should have elapsed between then and now for the propagation to complete. If you still receive any error messages, click **OK** to resume the query. If this occurs, the query will not display any data.   
 	
