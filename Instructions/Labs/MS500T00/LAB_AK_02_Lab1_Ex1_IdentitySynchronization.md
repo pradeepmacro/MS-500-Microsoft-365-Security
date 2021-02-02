@@ -4,7 +4,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 ### Task 1 - Configure your UPN suffix
 
-1.	On LON-DC1, log on as **adatum\Administrator** and password assigned from your lab hoster.
+1.	On LON-DC1, log on as **Adatum\Administrator** and password assigned from your lab hoster.
 2.	Using Windows PowerShell as administrator, update the UPN suffix for the domain and on the UPN on every user in AD DS with “@zzzzzzz.onmicrosoft.com” (where zzzzzzz is your unique UPN name) for the domain name. To do this, run the following command (remember to change zzzzzzz to your unique UPN name):
 
     	Set-ADForest -identity "adatum.com" -UPNSuffixes @{replace="zzzzzzz.onmicrosoft.com"}  
@@ -18,8 +18,8 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
  
 ### Task 2 - Enable Directory Synchronization
 
-1.	Open your browser and go to https://portal.office.com/   
-2.	Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password **Pa55w.rd** .    
+1.	Open your browser and go to `https://portal.office.com/`   
+2.	Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password `Pa55w.rd`.    
 3.	Click **Admin** to go to the Microsoft 365 admin center.
 4.	If asked about **update your admin contact information **click the Cancel button to skip this request.  
 	**Note:** If you see the Active Directory synchronization is being activated warning, you can ignore it at this time, but you will not be able to run directory synchronization later in this exercise. You must wait until directory synchronization is activated. However, you can complete the following steps, even if you do see the warning message.  
@@ -32,8 +32,8 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 2.	Agree to the license terms and privacy notice.
 3.	Click on **Use express settings**.   
 4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of 
-**holly@M365xZZZZZZ.onmicrosoft.com** with password **Pa55w.rd** and click Next.   
-5.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password **Pa55w.rd** and select **Next**.   
+**holly@M365xZZZZZZ.onmicrosoft.com** with password `Pa55w.rd` and click Next.   
+5.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.   
 6.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
 7.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
 8.	Wait for the installation to complete (this may take several minutes).   
@@ -41,8 +41,8 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
-1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing **https://portal.office.com** in the address bar.  
-2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: **Pa55w.rd**  
+1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
+2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
 3.	Navigate to the **Active Users**.  
 4.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  Select Abbie Parsons.  Abbie is a user that was only in the AD DS domain prior to our synchronization. 
 5.	Edit Abbie Parsons Product licenses as follows: 
