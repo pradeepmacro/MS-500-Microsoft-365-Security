@@ -15,12 +15,12 @@ Role assignments become "stale" when users have privileged access that they don'
 
 1.  Enter the following details and click **Start**:
 
-      - Review name:  **Global Admin Review**
-      - Start Date:  **Today's Date** 
-      - Frequency: **One time**
-      - End Date:  **End of next month**
-      - Review role membership:  **Global Administrator**
-      - Reviewers:  **Holly Dickson**
+      - Review name:  `Global Admin Review`
+      - Start Date:  `Today's Date` 
+      - Frequency: `One time`
+      - End Date:  `End of next month`
+      - Review role membership:  `Global Administrator`
+      - Reviewers:  `Holly Dickson`
  
  
      ![Screenshot](../Media/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
@@ -58,7 +58,7 @@ After the access review period is over, or all the users have finished their sel
 
 
 
-1.  Go to the Azure portal and select the **Azure AD Privileged Identity Management**.
+1.  Go to the **Azure portal** and select the `Azure AD Privileged Identity Management`.
 
 1.  Select **Azure AD Roles**.
 
@@ -75,7 +75,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
 
 
-1.  Open **Azure AD Privileged Identity Management**.
+1.  Open `Azure AD Privileged Identity Management`.
 
 1.  Click **Azure AD roles**.
 
