@@ -4,7 +4,7 @@ Adatum’s CTO has asked you to deploy Azure AD Smart Lockout, which assists in 
 
 The CTO is anxious to implement Smart Lockout because it will lock out the attackers while letting Adatum’s users continue to access their accounts and be productive. The CTO has asked you to configure Smart Lockout so that users can’t use the same password more than once, and they can’t use passwords that you deem too simplistic or common. 
 
-1. On the Domain Controller (LON-DC1), select the **Server Manager** icon on the taskbar if it’s already open; otherwise, open it now.
+1. On the Domain Controller (**LON-DC1**), select the **Server Manager** icon on the taskbar if it’s already open; otherwise, open it now.
 
 2. In **Server Manager**, select **Tools** in the upper-right menu bar, and in the drop-down menu, select **Group Policy Management.**
 
@@ -22,7 +22,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
 
-‎In **Internet Explorer**, open a new browser tab and go to (‌https://portal.azure.com).  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
+‎In **Internet Explorer**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
 10. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
 
@@ -34,9 +34,9 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 	- In the **Custom smart lockout** section:
 
-		- **Lockout threshold:** this field indicates how many failed sign-ins are allowed on an account before its first lockout. The default is 10. For testing purposes, Adatum has requested that you set this to **3.**
+		- **Lockout threshold:** this field indicates how many failed sign-ins are allowed on an account before its first lockout. The default is 10. For testing purposes, Adatum has requested that you set this to `3`.
 
-		- **Lockout duration in seconds:** This is the length in seconds of each lockout. The default is 60 seconds (one minute). Adatum has requested that you change this to **90** seconds.
+		- **Lockout duration in seconds:** This is the length in seconds of each lockout. The default is 60 seconds (one minute). Adatum has requested that you change this to `90` seconds.
 
 	- In the **Custom banned passwords** section:
 
@@ -44,19 +44,19 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 		- **Custom banned password list:** Enter the following values (press Enter after entering each value so that each value is on a separate line):
 
-			- **Password01**
+			- `Password01`
 
-			- **F00tball01**
+			- `F00tball01`
 
-			- **Se@Hawks1**
+			- `Se@Hawks1`
 
-			- **Never4get!!**
+			- `Never4get!!`
 
 14. Select **Save** on the menu bar at the top of the page.
 
 15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
 
-16. A new tab will open displaying the **change password** window. Enter **Pa55w.rd** in the **Old password** field, enter **Never4get!!** in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
+16. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
 17. In your browser, close the **Change password** tab. 
 
