@@ -4,27 +4,27 @@ You have a Global Admin account set up for Holly Dickson, and you&#39;re signed 
 
 ### Task 1 – Create a Safe Links Policy
 
-In this task, you will add the URL **tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.
+In this task, you will add the URL **http://tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
 
-2. You should still be in the Microsoft 365 Security and Compliance center. If not, in your browser, enter **https://protection.office.com.**
+2. You should still be in the Microsoft 365 Security and Compliance center. If not, in your browser, enter `https://protection.office.com`
 
 3. In the **Security &amp; Compliance center**, in the left navigation pane, select **Threat Management** and then select **Policy**.
 
-4. In the **Policy** window, scroll to the right (if necessary) and select the **ATP Safe Links** tile.
+4. In the **Policy** window, scroll to the right (if necessary) and select the **Safe Links** tile.
 
-5. In the **Safe Links** window, click on the "**Global Settings**" icon to open the default policy.
+5. In the **Safe Links** window, click **Global Settings**.
 
-1. In the **Safe links policy for your organization** window, under the **Settings that apply to content across Office 365** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter **http://tailspintoys.com**.
+6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` and then select the **plus (+)** sign to add it to the policy.
 
-1. Select **Save**.
+7. Select **Save**.  Click **OK**.
 
-9. Click the **+ Create** button to add a new safe link policy.
+8. Select the **plus (+)** sign to add a new recipient policy.
 
-10. Insert the following to the windows fields:
+9. Insert the following to the windows fields:
 
-    - Name: **All company users**
+    - Name: `All company users`
 
     - Select the action for unknown potentially malicious URLs in messages: This is set to Off by default. Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
 
@@ -34,17 +34,17 @@ In this task, you will add the URL **tailspintoys.com** to the company-wide list
 
     - In the pop-up window that appears, click "**+ Add**", select the available domain **M365xZZZZZZ.onmicrosoft.com**. Click **add-** and then select **Done** and **Next**
 
-11. Select **Finish** and click **Yes** to close the window.
+10. Select **Finish** and click **Yes** to close the window.
 
-12. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
+11. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 
-In this task, you will test the Safe Links Policy that you just created that blocks links to the http://tailspintoys.com URL.
+In this task, you will test the Safe Links Policy that you just created that blocks links to the `http://tailspintoys.com` URL.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
-2. In your **Microsoft Edge** browser, select the **Microsoft Office Home** (or go to https://office.com) tab and then select **Outlook.**
+2. In your **Microsoft Edge** browser, select the **Microsoft Office Home** (or go to `https://office.com`) tab and then select **Outlook.**
 
 3. If you receive a **We updated Outlook** message, select **Not Now**, or if you see a **Welcome** message, then close it.
 
@@ -54,15 +54,15 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
     - To: You will be sending an email to the MOD Administrator, so enter **mod** in the **To** field and then select the **MOD Administrator** email address from the drop-down list.
 
-    - Add a subject: **Free stuff from Microsoft**
+    - Add a subject: `Free stuff from Microsoft`
 
-    - Add a message: **Please click on me for free toys from Microsoft.**
+    - Add a message: `Please click on me for free toys from Microsoft`.
 
 6. Select the text that you added in the body of the message.
 
 7. At the bottom of the detail pane, below the body of the message, is a taskbar. On the taskbar, select the **Insert hyperlink** icon to display the Insert link window.
 
-9. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: **http://tailspintoys.com/aboutus/freetoys**.
+9. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: `http://tailspintoys.com/aboutus/freetoys`.
 
 10. Select **OK**.
 
@@ -74,7 +74,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 14. Log into the VM as the **Admin** account by entering **Ps55w.rd** in the **Password** field if necessary.
 
-15. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: **https://outlook.office365.com**
+15. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: `https://outlook.office365.com`
 
 16. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and then select **Next**.
 
@@ -88,7 +88,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 21. In the MOD Administrator&#39;s **Inbox**, open the email that was sent by Holly.
 
-22. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with **https://nam03.safelinks.protection.outlook.com**.
+22. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with `https://nam03.safelinks.protection.outlook.com`.
 
     When you select the hyperlink to open it, a new tab in **Edge** opens that displays the following warning message: **Opening this website might not be safe.** This message indicates that your ATP Safe Links policy is working correctly and access to the URL is blocked with ATP Safe Links.
 
@@ -98,19 +98,19 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 In this task, you will, and you&#39;ll create an ATP Safe Attachments policy that will test email attachments for malware that are sent to recipients within the M365xZZZZZZ.on microsoft.com domain. You will configure the policy so that if an attachment is blocked, it will be removed from the email that is sent to the recipient, and a copy of the email will be redirected to Joni Sherman for additional review.
 
-1. Switch back to your Client 1 VM (LON-CL1). You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. Switch back to your Client 1 VM (**LON-CL1**). You should still be logged into your Client 1 VM as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
 2. In your **Edge** browser, select the **Office 365 Security &amp; Compliance** tab.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane under **Threat Management**, select **Policy**.
 
-4. In the **Policy** window, select the **ATP Safe Attachments** tile.
+4. In the **Policy** window, select the **Safe Attachments** tile.
 
-5. On the **Safe attachments** window, at the top of the page under the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on ATP for SharePoint, OneDrive and Microsoft Teams** checkbox.
+5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on ATP for SharePoint, OneDrive and Microsoft Teams** switch.
 
-6. Under the **Protect email attachments** section, select the **plus (+) sign** on the menu bar to add a new safe attachments policy.
+6. Select the **plus (+) sign** on the menu bar to add a new safe attachments policy.
 
-7. In the new safe attachments policy window, enter **AttachmentPolicy1** in the **Name** field.
+7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**
 
 8. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 
@@ -120,13 +120,11 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 11. Scroll down in the window and under the **Applied To** section, under **If** (the first condition), select the drop-down arrow and select **The recipient domain is...**
 
-12. In the **NAME** dialog box, select the **M365xZZZZZZ.onmicrosoft** domain (where ZZZZZZ is your tenant ID provided by your lab hosting provider), select **add->**, and then select **OK**.
+12. In the **NAME** dialog box, select the **M365xZZZZZZ.onmicrosoft** domain (where ZZZZZZ is your tenant ID provided by your lab hosting provider), select **add->**, and then select **OK** then click **Next**.
 
-13. On the **new safe attachments policy** window, select **Save**.
+13. On the **Review Settings** window, note the two messages displayed regarding the **Dynamic Delivery** and **Enable redirect** options that were selected. select **Finish**.
 
-14. Two warning messages will be displayed regarding the **Dynamic Delivery** and **Enable redirect** options that were selected. Select **OK** for each.
-
-15. It may take a minute or so to update the organization settings. In the **Update complete** window, select **OK**.
+14. It may take a minute or so to update the organization settings. In the **Update complete** window, select **OK**.
 
 **NOTE:** Unfortunately, we are unable to create a training lab in which you can validate the ATP Safe Attachments policy that you just created. To do so, you must send an email that contains a malicious attachment. There are some common test viruses that are available, such as the EICAR test virus; however, with well-known test viruses such as EICAR, the messages in which they are attached get quarantined before they can be processed by Office 365 ATP. Since ATP Safe Attachments functionality is meant to protect against unknown and zero-day viruses and malware, it is very difficult, and not recommended, to create such an attachment.
 
@@ -134,4 +132,3 @@ That said, after you have defined your ATP Safe Attachment policies in your real
 
 
 # End of Lab
-
