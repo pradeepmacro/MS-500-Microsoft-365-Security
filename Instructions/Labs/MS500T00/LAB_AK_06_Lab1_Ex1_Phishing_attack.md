@@ -7,11 +7,11 @@ Holly Dickson is concerned that some users in her organization may require educa
 ### Task 1: Enable Mulit-factor authentication for Holly Dickson
 
 
-1.  On LON-CL1, Go to the Office 365 Security & Compliance center (https://protection.office.com) and login as Holly Dickson.
+1.  On LON-CL1, Go to the Office 365 Security & Compliance center `https://protection.office.com` and login as **Holly Dickson**.
 
 2.  Click **Threat management**, and then click **Attack simulator**.
 
-3.  Notice the warning that you must enable multi-factor authentication (MFA).  You are about to do a simulated attack and the system wants to confirm your credentials. This is a requirement of the attack simulator. Let's enable MFA for Holly Dickson. Go to your browser tab with the Microsoft 365 admin center or open a new browser tab to https://admin.microsoft.com.
+3.  Notice the warning that you must enable multi-factor authentication (MFA).  You are about to do a simulated attack and the system wants to confirm your credentials. This is a requirement of the attack simulator. Let's enable MFA for Holly Dickson. Go to your browser tab with the Microsoft 365 admin center or open a new browser tab to `https://admin.microsoft.com`.
 
 	**Note:** You may not get this warning if you enabled MFA for Holly in an earlier lab and are using the same tenant.  If this is the case you may skip ahead to the next task.
 
@@ -19,7 +19,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 5.  On the Active users screen click **Multi-factor authentication**.
 
-7.  In the multi-factor authentication screen mark Holly Dickson and select **Enable** under quick steps.
+7.  In the multi-factor authentication screen View **Global Administrators** then select **Holly Dickson** and select **Enable** under quick steps.
 
 8.  In the About enabling multi-factor auth screen select **enable**. in the About enabling multi-factor auth screen select **enable multi-factor auth** button.
 
@@ -32,7 +32,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 ### Task 2: Configure and launch a Spear Phishing attack
 3.  In the Spear Phishing (Credentials Harvest) area select the **Launch Attack** button.
 
-4.  Name the campaign *Spear Simulation* and select **Next**.
+4.  Name the campaign `Spear Simulation` and select **Next**.
 
 5.  In the Target recipients area select the **Address Book** button and select **Patti Fernandez** and then then select  **Next**.
 
@@ -49,7 +49,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 3: Confirm target received phishing email attack
 
-2.  Open a new browser window in InPrivate or incognito mode and browse to **https://office.com**.
+2.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
  
 3.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
