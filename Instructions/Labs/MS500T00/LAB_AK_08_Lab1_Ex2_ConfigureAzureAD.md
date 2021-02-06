@@ -35,21 +35,19 @@ You have now configured your tenant so that all users can enroll their clients t
 
 4. In the **Devices – All devices** window, in the middle pane, select **Device settings**.
 
-5. In the details pane that appears on the right, in the **Users may join devices to Azure AD** row, verify that **All** is selected. This means that all Azure AD users can join their devices to Azure Active Directory.
+5. In the details pane that appears on the right, in the **Users may join devices to Azure AD** row, Currenlty set to **All**, This means that all Azure AD users can join their devices to Azure Active Directory. Select **Selected**.
 
-6. The **Additional local administrator on Azure AD joined devices** row is currently set to **None**. Select **Selected**.
+6. Below this field, in the **Selected** section (where it displays **No member selected**), select this section.
 
-7. Below this field, in the **Selected** section (where it displays **No member selected**), select this section.
+7. In the **Members allowed to join devices** window, select **+Add**
 
-8. In the **Local administrators on devices** window, select **+Add**
+8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
 
-9. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
+9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Require Multi-Factor Auth to join devices** is set to **No**. The **Maximum number of devices per user** is currently set to **50.** Select this field and in the menu that appears, select **10.**
 
-10. Back in the **Device settings** detail pane on the right, scroll down and verify that **Require Multi-Factor Auth to join devices** is set to **No**. The **Maximum number of devices per user** is currently set to **50.** Select this field and in the menu that appears, select **10.**
+10. In the menu bar at the top of the detail pane, select **Save**.
 
-11. In the menu bar at the top of the detail pane, select **Save**.
-
-12. Leave the Azure portal open for the next task.
+11. Leave the Azure portal open for the next task.
 
 You have changed the default settings for users to join their devices to your Azure AD tenant.
 
@@ -65,9 +63,9 @@ You have changed the default settings for users to join their devices to your Az
 4. In the **New Group** window, enter the following information:
 
     - Group type: **Security**
-    - Group name: **Enrolled Devices**
+    - Group name: `Enrolled Devices`
     - Membership type: **Dynamic Device**
-    - Owner: select the **No owners selected** link, then in the **Add Owners** window, select **Alex Wilber** and select **Select**.
+    - Owner: select the **No owners selected** link, then in the **Add Owners** window, select `Alex Wilber` and select **Select**.
 
 5. At the bottom of the window, select the **Add dynamic query**
 
@@ -75,7 +73,7 @@ You have changed the default settings for users to join their devices to your Az
 
     - Property: select the drop-down arrow and select **managementType**
     - Operator: select the drop-down arrow and select **Equals**  
-    - Value: enter **MDM**
+    - Value: enter `MDM`
 
 3. Select the **Rule syntax** field. It should display the following rule:
 
