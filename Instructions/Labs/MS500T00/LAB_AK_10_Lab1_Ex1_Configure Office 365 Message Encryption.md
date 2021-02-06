@@ -9,9 +9,9 @@ In this exercise you will set up Azure Rights Management for your tenant. You wi
 
 In this task you will activate Rights Management protection from the Microsoft 365 admin center. 
  
-1. Switch to the domain controller VM (LON-CL1). You should still be logged into LON-CL1 as **lon-cl1\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. Switch to the Client VM (**LON-CL1**). You should still be logged into LON-CL1 as **LON-CL1\Admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
-2. Open the Microsoft 365 admin center (admin.microsoft.com) if it's not already open on your browser.
+2. Open the Microsoft 365 admin center `https://admin.microsoft.com` if it's not already open on your browser.
 
 3. Select **Settings** and then select **Org settings**.
 
@@ -28,7 +28,7 @@ In this task you will activate Rights Management protection from the Microsoft 3
 
 In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. In the next task, you will do the same thing but using PowerShell instead. 
 
-1. On the LON-CL1 VM, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to **https://portal.office.com** and sign in as **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd.** 
+1. On the **LON-CL1** VM, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to `https://portal.office.com` and sign in as **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and `Pa55w.rd`. 
 
 2. In the **Office 365 home page**, select **Admin**.
 
@@ -40,11 +40,11 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 6. At the top of the **mail flow** page, the **rules** tab displays by default. In the **rules** tab, select the plus sign (**+**) to create a new rule. This displays a drop-down menu of actions. Select **Create a new rule.**
 
-7. In the **new rule** window, in the **Name** box, enter **Encrypt mail for guest@contoso.com** as the name of this rule.
+7. In the **new rule** window, in the **Name** box, enter `Encrypt mail for guest@contoso.com` as the name of this rule.
 
 8. Select the drop-down arrow in the **Apply this rule if… ** condition box. In the drop-down menu, select **the recipient is**. 
 
-9. For this condition, you must either select an existing name from the contact list or type a new email address in the **check names** box. In this case, enter **guest@contoso.com** in the **Check names** box and then select **OK**.
+9. For this condition, you must either select an existing name from the contact list or type a new email address in the **check names** box. In this case, enter `guest@contoso.com` in the **Check names** box and then select **OK**.
 
 10. You need to add more conditions, so select **More options**.
 
