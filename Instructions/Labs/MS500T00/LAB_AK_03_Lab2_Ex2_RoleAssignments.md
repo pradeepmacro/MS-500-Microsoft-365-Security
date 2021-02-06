@@ -9,19 +9,19 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
 1.  Sign in to Azure portal
 
-1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  In the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Select **Roles**. If this is option is still greyed you may need to refresh your browser.
 
-1.  Select **Billing Administrator**.
+1.  Select `Billing Administrator`.
 
 1.  Select **+ Add assignments** to open Select a member. In the Add assignments screen click **No member selected**.
 
-1.  In the **Select a member screen** select **Patti Fernandez** and then click **Select**.
+1.  In the **Select a member screen** select `Patti Fernandez` and then click **Select**.
 
-1.  In Add assignments screen on the Setting tab unmark the **Permanently eligible** checkbox. Click **Assign**.  Review the added member in the assignment window.
+1.  In Add assignments screen on the Setting tab uncheck the **Permanently eligible** checkbox. Click **Assign**.  Review the added member in the assignment window.
 
 1.  When the role is assigned, the user you selected will appear in the members list as **Eligible** for the role. 
 
@@ -33,7 +33,7 @@ Follow these steps if you want to make a role assignment permanent.
 
 
 
-1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  In the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
@@ -53,7 +53,7 @@ You can remove users from role assignments, but make sure there is always at lea
 
 
 
-1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
+1.  In the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
@@ -69,6 +69,3 @@ You can remove users from role assignments, but make sure there is always at lea
 
 
 # Continue to exercise 3
-
-
-

@@ -17,7 +17,7 @@ In your policy, set:
 |Grant access | Require multi-factor authentication |
 
  
-1.  Sign in to the Azure Portal https://portal.azure.com as Holly Dickson with password: **Pa55w.rd**.
+1.  Sign in to the Azure Portal `https://portal.azure.com` as Holly Dickson with password: `Pa55w.rd`.
 
 2.  In the Azure portal, on the hub menu go to **Azure Active Directory** by using More Services to search if necessary.
 
@@ -31,7 +31,7 @@ In your policy, set:
 
 
 
-6.  On the **New** page, in the **Name** textbox, type **Require MFA for Azure portal access**.
+6.  On the **New** page, in the **Name** textbox, type `Require MFA for Azure portal access`.
 
 
 
@@ -46,7 +46,7 @@ In your policy, set:
 
     b. Click **Select**.
 
-    c. On the **Select** page, select **Patti Fernandez**, and then click **Select**.
+    c. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
 
 
 9.  Back on the New page click **Cloud apps or actions**.
@@ -76,6 +76,8 @@ In your policy, set:
 
 14.  Click **Create**.
 
+    ‎**Note:** If the policy fails check your work and **Create** again.
+
 
 ### Task 2: Evaluate a simulated sign-in
 
@@ -97,7 +99,7 @@ We will initialize the what if policy evaluation tool for:
  
      ![Screenshot](../Media/448e616a-7524-44a5-8335-c2fc8193dae6.png)
 
-2.  Click **Users**, select **Patti Fernandez**, and then click **Select**.
+2.  Click **Users**, select `Patti Fernandez`, and then click **Select**.
 
 
 

@@ -12,9 +12,9 @@ If the device does not meet these requirement, the device should be marked as no
 
 #### Task 1: Create and apply compliance policy and enrollment restrictions
 
-1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password **Pa55w.rd**. 
+1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password `Pa55w.rd`. 
 
-2.  In Microsoft Edge, type **https://endpoint.microsoft.com** in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
+2.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
 
 3.  From the navigation pane select **Devices**, then select **Compliance Policies**.
 
@@ -26,18 +26,18 @@ If the device does not meet these requirement, the device should be marked as no
 
 6.  On the Basics tab, provide the following values and select **Next**:
 
-    -  Name: **Compliance1**
+    -  Name: `Compliance1`
 
 7.  On the **Compliance settings** tab, select **Device Health** and review the available settings.
 
-8.  On the **Compliance settings** tab, expand **Device Properties**. In the **Minimum OS version** field, type **10.0.16299.15**.
+8.  On the **Compliance settings** tab, expand **Device Properties**. In the **Minimum OS version** field, type `10.0.16299.15`.
 
-9.  On the **Compliance settings** tab, expand **System Security**. Set the 
+9.  On the **Compliance settings** tab, expand **System Security**. Scroll down and set the 
     **Windows Defender Antimalware** setting to **Require**. 
 
 10. Select **Next**. On the **Actions for noncompliance** tab, note the action to Mark device noncompliant default setting is immediately. Review how you can configure the number of days after which the device is marked as noncompliant, and configuration additional actions. 
 
-11. Select **Next**. On the **Assignments** tab, choose **Select groups to include**.  Select **Enrolled Devices**, choose **Select**, and then select **Next**.
+11. Select **Next**. On the **Assignments** tab, choose **Select groups to include**.  Select `Enrolled Devices`, choose **Select**, and then select **Next**.
 
 12. Select **Create**.
 
@@ -69,7 +69,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 2.  In the **Details** pane, select **New policy**.
 
-3.  On the **New** blade, in the **Name** text box, type **Conditional1** and then select **Users and groups**.
+3.  On the **New** blade, in the **Name** text box, type `Conditional1` and then select **Users and groups**.
 
 4.  On the **Users and groups** blade, select the **All users** radio button.
 
@@ -83,7 +83,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 #### Task 3: Verify that the conditional access policy is working
 
-1.  On **LON-CL2**, open a new Microsoft Edge tab, then and open <https://portal.office.com>.
+1.  On **LON-CL2**, open a new Microsoft Edge tab, then and open `https://portal.office.com`.
 
 2.  Select the **Outlook** icon. 
 
@@ -93,10 +93,10 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 5.  **Close** the browser window.
 
-6.  Return to **LON-CL1** and open EndPoint Manager. In Microsoft Edge, type **https://endpoint.microsoft.com** in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
+6.  Return to **LON-CL1** and open EndPoint Manager. In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
 
 7.  Select **Devices** and then select **Conditional access**. Select the elipses next to policy "Conditional1" and click **Delete**.  Select **Yes** to confirm deletion.  Note: If you don't delete this policy it will interfere with later labs.
 
 
 
-**END OF LAB**
+**End of lab**

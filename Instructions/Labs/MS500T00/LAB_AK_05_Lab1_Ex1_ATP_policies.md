@@ -30,13 +30,13 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
     - Check the **Apply safe links to email messages sent within the organization** check box.
 
-    - In the **Applied To** section, below the **If…** condition, select the drop-down arrow in the **Select one** field, and then in the drop-down menu, select **The recipient domain is**.
+    - In the **Applied To** section, click the **+ Add a condition** drop down arrow, and then in the drop-down menu, select **The recipient domain is** and click "**Choose**".
 
-    - In the pop-up window that appears, the available domain is **M365xZZZZZZ.onmicrosoft.com**. Select **add-&gt;** and then select **OK.**
+    - In the pop-up window that appears, click "**+ Add**", select the available domain **M365xZZZZZZ.onmicrosoft.com**. Click **add-** and then select **Done** and **Next**
 
-11. Select **Save** and click **OK** to close the window.
+10. Select **Finish** and click **Yes** to close the window.
 
-12. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
+11. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 

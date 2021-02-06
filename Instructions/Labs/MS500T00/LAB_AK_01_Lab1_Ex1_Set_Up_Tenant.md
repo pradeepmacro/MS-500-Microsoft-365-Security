@@ -21,9 +21,9 @@ Once you launch the lab, a free trial tenant will be made available to you to ac
 
 In your role as Holly Dickson, Adatum’s Security Administrator, you have been tasked with setting up the company’s profile for its Microsoft 365 trial tenant. In this task, you will configure the required options for Adatum’s tenant. Since Holly has yet to create a personal Microsoft 365 user account (you will do this in Task 3), Holly will initially sign into Microsoft 365 as the default Microsoft 365 MOD Administrator account using the Tenant email address and password that was assigned by your lab hosting provider.
 
-1. When the Virtual Machine opens, it opens with the Client PC VM (LON-CL1). You need to switch to the Domain Controller VM (LON-DC1).
+1. When the Virtual Machine opens, it opens with the Client PC VM (**LON-CL1**). You need to switch to the Domain Controller VM (**LON-DC1**).
 
-2. Log on as **ADATUM\Administrator** with the password **Pa55w.rd**. 
+2. Log on as **ADATUM\Administrator** with the password `Pa55w.rd`. 
 
 3. If you receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **No.**
 
@@ -31,7 +31,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 5. On the taskbar at the bottom of the page, select the **Internet Explorer** icon. Maximize your browser window when it opens.
 
-6. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: **https://portal.office.com/** 
+6. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/` 
 
 7. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -41,7 +41,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 10. If a **Get your work done with Office 365** type window appears, then close it now. 
 
-11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft Office Home** page by entering the following URL in the address bar: **https://portal.office.com**.
+11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
 
 16. If a **Good morning/afternoon/evening MOD Administrator** window appears, select **Get started**.
 
@@ -57,17 +57,17 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 21. In the **Organization information** window, enter the following information:
 
-	- Name: **Adatum Corporation**
+	- Name: `Adatum Corporation`
 
-	- Address: **555 Main Street**
+	- Address: `555 Main Street`
 
-	- City: **Redmond**
+	- City: `Redmond`
 
 	- State: **Washington**
 
-	- Postal Code: **98052**
+	- Postal Code: `98052`
 
-	- Phone: **425-555-1234**
+	- Phone: `425-555-1234`
 
 	- Technical contact: **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
@@ -83,7 +83,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
     ‎**Note:** One of the benefits of Office 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
-26. In the **Are you sure you want to change to Targeted release for select people** window, select **Yes.** if it appears.  <br/>
+26. If the **Are you sure you want to change to Targeted release for select people** window appears, select **Yes.**.  <br/>
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they’ve been reviewed by the control group.
 
@@ -114,7 +114,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 **Important:** As a best practice in your real-world deployments, you should always write down the first global admin account’s credentials (in this lab, the MOD Administrator) and store it away for security reasons. This account is a non-personalized identity that owns the highest privileges possible in a tenant. It is **not** MFA activated (because it is not personalized) and the password for this account is typically shared among several users. Therefore, this first global admin is a perfect target for attacks, so it is recommended to create personalized service admins and keep as few global admins as possible. For those global admins that you do create, they should each be mapped to a single identity, and they should each have MFA enforced.
 
-1. On the LON-DC1 VM, the **Microsoft 365 admin center** should still be open in Internet Explorer from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
+1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Internet Explorer from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
 
 2. In the **Active users** list, you will see the  the default **MOD Administrator** account as well as some other user accounts. Since you’re taking on the role of Holly Dickson in this lab scenario, you will create a user account for yourself, and you will assign yourself the Microsoft 365 role of Global Administrator. 
 
@@ -122,9 +122,9 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 4. In the **Set up the basics** window, enter the following information:
 
-	- First name: **Holly**
+	- First name: `Holly`
 
-	- Last name: **Dickson** 
+	- Last name: `Dickson` 
 
 	- Display name: When you tab into this field, **Holly Dickson** will appear.
 
@@ -136,9 +136,9 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 		**Holly@M365xZZZZZZ.onmicrosoft.com**  
 	
-	- Password settings: select the **Let me create the password** option
+	- Password settings: Uncheck the **Automatically create a password** option
 
-	- Password: **Pa55w.rd** 
+	- Password: `Pa55w.rd`
 
 	- Uncheck the **Require this user to change their password when they first sign in** checkbox. 
 
@@ -170,7 +170,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 Azure Active Directory is needed to perform several configuration steps when installing Microsoft 365. These steps are performed using Windows PowerShell. However, before you can use PowerShell to access Azure AD, you must first install the Windows PowerShell modules that enable you to access Azure AD through PowerShell. In this task, you will prepare for using Azure AD by installing those PowerShell modules.
 
-1. On the LON-DC1 VM, in Internet Explorer, enter the following URL in the address bar: **http://aka.ms/AA70s3f**   
+1. On the **LON-DC1** VM, in Internet Explorer, enter the following URL in the address bar: `http://aka.ms/AA70s3f`   
 
     ‎This will take you to the **Microsoft Download Center** for the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW.**
 
@@ -196,7 +196,7 @@ Azure Active Directory is needed to perform several configuration steps when ins
 
 10. In **Windows PowerShell**, type the following command and then press Enter:
 
-	‎**Install-Module MSOnline** 
+	‎`Install-Module MSOnline` 
 	
 11. If you are prompted to install the **NuGet provider**, enter **Y** to select **[Y] Yes**. Press Enter key. 
 
@@ -206,7 +206,7 @@ Azure Active Directory is needed to perform several configuration steps when ins
 
 14. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
 
-	**Install-Module AzureADPreview**   
+	`Install-Module AzureADPreview`   
 	
 15. If you are prompted to confirm that you want to execute this command, enter **A** to select **[A] Yes to All**.
 
@@ -221,7 +221,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 **Note:** While you will validate IRM in Exchange and SharePoint in a later lab, you must enable IRM for SharePoint Online now because it can take up to 60 minutes or more for IRM to show up in SharePoint Online. By the time you get to the validation exercise in the later lab, IRM should have finished its internal configuration so you won’t have to wait for it to be present in SharePoint Online.
 
-1. You should still be logged into your domain controller VM as the **LON-DC1\admin** account with password = **Pa55w.rd**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
+1. You should still be logged into your domain controller VM as the **LON-DC1\Admin** account with password: **Pa55w.rd**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
 
 2. In the **Microsoft 365 admin center**, scroll down through left navigation pane and under **Admin centers,** select **SharePoint**. This will open the SharePoint admin center.
 
@@ -239,13 +239,13 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 In a later lab, you will create Alert Policies using the Security and Compliance Center. However, before you can implement alerts, an admin must first turn on Audit Logging for the organization. Since it can take some hours for audit logging to be fully enabled once you turn it on in the Security and Compliance Center, you will turn it on in this lab so that it is fully enabled by the time you get to that lab.
 
-1. You should still be logged into your domain controller 1 VM as the **LON-DC1\admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**.
+1. You should still be logged into your domain controller 1 VM as the **LON-DC1\Admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**.
 
-2. In your browser, enter the following URL in the address bar: **https://protection.office.com**.
+2. In your browser, enter the following URL in the address bar: `https://protection.office.com`.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**.
 
-4. In the **Audit log search** window, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**.
+4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**.
 
 5. Leave the Client 1 VM and the Security and Compliance Center open.
 

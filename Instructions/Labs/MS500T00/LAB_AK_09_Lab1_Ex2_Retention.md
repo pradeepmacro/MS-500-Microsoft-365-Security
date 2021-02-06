@@ -19,13 +19,13 @@ As part of your pilot project for Adatum, you will configure MRM retention by cr
 
 6. You want to create a retention tag, so select the **plus (+)** **sign** in the toolbar that appears across the list of existing retention tags. In the drop-down menu that appears, select **applied by users to items and folders (personal)**.
 
-7. In **new tag applied by users to items and folders (personal)** window, under **Name**, type **3 Years Move – Archive after three years**.
+7. In **new tag applied by users to items and folders (personal)** window, under **Name**, type `3 Years Move – Archive after three years`.
 
 8. Under **Retention Action**, select the **Move to Archive** option.
 
-9. Under **Retention period**, select the **When the item reaches the following age (in days)** option, and type **1095** in the retention period field.
+9. Under **Retention period**, select the **When the item reaches the following age (in days)** option, and type `1095` in the retention period field.
 
-10. Under **Comment**, enter **Personal tag to archive email three years after being received**.
+10. Under **Comment**, enter `Personal tag to archive email three years after being received`.
 
 11. Select **Save**.  Select **OK** once successful.
 
@@ -67,7 +67,7 @@ To add these tags, repeat steps 15-17. Hold down the **Ctrl** key as you select 
 
 25. Select **Save** and then select **OK**.
 
-26. Repeat steps 21-25 for **Alex Wilber**.
+26. Repeat the same steps for **Alex Wilber**.
 
 27. Leave your web browser open and proceed to the next task.
 
