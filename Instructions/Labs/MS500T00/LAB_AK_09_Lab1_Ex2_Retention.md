@@ -7,15 +7,15 @@ In this exercise, you will configure retention tags and policies, and you will i
 
 As part of your pilot project for Adatum, you will configure MRM retention by creating an MRM retention tag and adding it to a new MRM retention policy. You will also assign several default tags to the policy as well. You will then assign this retention policy to Joni Sherman and Alex Wilber's mailboxes.
 
-1. On LON-CL1 virtual machine. In **Microsoft Edge**, select the **Microsoft 365 admin center** tab.
+1. On LON-CL1 virtual machine. In **Microsoft Edge**, navigate to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-2. In the **Microsoft 365 admin center**, in the left navigation pane, select **…Show all**.
+2. In the left navigation pane, select **…Show all**.
 
 3. In the left navigation pane, under **Admin centers,** select **Exchange**. This will open the Exchange admin center.
 
 4. In the **Exchange admin center**, in the left navigation pane, select **compliance management**.
 
-5. In the **compliance management** window, select the **retention tags** tab that appears at the top of the page.
+5. In the **Compliance management** window, select the **retention tags** tab that appears at the top of the page.
 
 6. You want to create a retention tag, so select the **plus (+)** **sign** in the toolbar that appears across the list of existing retention tags. In the drop-down menu that appears, select **applied by users to items and folders (personal)**.
 

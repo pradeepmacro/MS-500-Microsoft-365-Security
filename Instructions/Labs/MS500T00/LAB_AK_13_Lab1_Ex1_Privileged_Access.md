@@ -26,7 +26,7 @@ Before you start using privileged access, determine who needs approval authority
 
 8.  In the **Active Groups** screen select the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
 
-9.  In the **Privileged Access Approval Group** screen select **Members** and then select **View all and manage members**.
+9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
 10.  Select **+ Add members** search for `MOD Administrator`.  Select MOD Administrator and click **Save**. Click **Close** twice to return to the **Groups** screen.
 
@@ -97,7 +97,7 @@ Comments: `I need to move mailboxes for the new department today`.
 
 ### Task 5 - Approve a privileged access request.
 
-1. Switch to **LON-CL2** virtual machine.  In the Microsoft 365 admin center (`https://admin.microsoft.com`), sign in as **MOD Administrator** the password for this account was assigned by your lab hosting providor. Select **Settings**(ellipsis show all) then select **Org settings**.  
+1. Switch to **LON-CL2** virtual machine.  In the Microsoft 365 admin center (`https://admin.microsoft.com`), sign in as **MOD Administrator** the password for this account was assigned by your lab hosting provider. Select **Settings** (you may need to click **... Show all** first) then select **Org settings**.  
 
 2. In the Org settings screen select the **Security & privacy** tab and then select **Privileged access**. 
 
