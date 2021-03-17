@@ -6,7 +6,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 1: Configure and launch a Brute Force attack
 
-1.  Go to the Office 365 Security & Compliance center `https://protection.office.com` and login as **Holly Dickson**.
+1.  Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
 
 2.  Click **Threat management**, and then click **Attack simulator**.
 
