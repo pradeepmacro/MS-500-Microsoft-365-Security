@@ -30,22 +30,24 @@ Holly Dickson is concerned that some users in her organization may require educa
 	**Note:** it may take several minutes for this MFA setting to propagate your tenant.  If the **Launch Attack** button is not available in Attack Simulator then wait a few minutes and login again as Holly Dickson. If you are not able to satisfy the MFA requirements with your own mobile device you will not be able to complete this lab.
 
 ### Task 2: Configure and launch a Spear Phishing attack
-3.  In the Spear Phishing (Credentials Harvest) area select the **Launch Attack** button.
 
-4.  Name the campaign `Spear Simulation` and select **Next**.
+1.  Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
+1. Click the **Simulations** tab. 
+1. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
 
-5.  In the Target recipients area select the **Address Book** button and select **Patti Fernandez** and then then select  **Next**.
+1.  Name the simulation `Spear Simulation` and select **Next**.
+1. On the **Select Payload** screen, select a desired payload from the list of provided payloads. Click **Next**.
 
-6.  In the Configure email details area enter a creative name in the **From (Name), From (Email)**, and select any Phishing Login Server URL from the drop-down menu.
-
-    **Note**: Ordinarily you would also include a URL link for the target to click into.  This would be entered in the Custom Landing Page URL field.  Since this is just an exercise we won't do that here.  The success rate of the spear phishing attack will be a function of how clever an email you contrive. 
-
-7.  In the **Subject** field for the phishing email type "Free Gift Cards" and select **Next**.
-
-8.  In the Compose email area enter a creative enticing email message intended to lure users and select **Next**.  Ordinarily, you would have your own templates for the body of the email that are appropriate for your organization.  Remember the purpose of this simulation is to test if your users are tricked into clicking the link .by this phishing email.
-
-9.  In the Confirm area select **Finish**.
-
+5.  In the **Target Users** screen, do the following:
+	1. Ensure **Include only specific users and groups** is selected. 
+	1. Click **Add Users**. 
+	1. On the **Add Users** screen, type  **Patti Fernandez** in the search box and hit Enter. 
+	1. Select the user from the search results list. 
+	1. Click **Add 1 User** at the bottom. 
+	1. Click  **Next**.
+1. Leave the default settings on the **Assign training** screen. Click **Next**.
+1. On the **Launch Details** page, ensure that **Launch this simulation as soon as I'm done** is selected. Click **Next**.
+1. On the **Review Simulation** screen, click **Submit**.
 
 ### Task 3: Confirm target received phishing email attack
 
@@ -57,7 +59,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 4: Review the results
 
-3. In your browser session where you are logged in as Holly Dickson go back to the Attack simulator.
+3. In your browser session where you are logged in as Holly Dickson go back to the [Attack simulation training](https://security.microsoft.com/attacksimulator). Click the **Simulations** tab.
 
 4. In the Spear Phishing (Credentials Harvest) area click **Attack Details**.  Notice in the Attack History area it lists how many users were compromised by the attack.
 

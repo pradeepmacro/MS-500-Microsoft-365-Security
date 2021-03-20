@@ -7,7 +7,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 
 
-#### Task 1: self-service password reset
+#### Task 1: Enable self-service password reset
 
 1.  Switch to **LON-CL1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
 
@@ -33,40 +33,35 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 11. Select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
 
+#### Task 2: Register user for self-service password reset
 
-#### Task 2: Test self-service password reset
+With SSPR enabled and configured, test the SSPR process with a user that's part of the group you selected in the previous section, such as Test-SSPR-Group. In the following example, the testuser account is used. Provide your user account that's part of the group you enabled for SSPR in the first section of this mini-lab.
 
-1.   In Microsoft Edge at the upper right of the page, select your account name, and then select
-    **Sign in with a different account**. 
+>**Note**
+When you test the self-service password reset, use a non-administrator account. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password.
+
+1.   In your web browser at the upper right corner of the page, select your account name, and then select **Sign in with a different account**. 
 
 2.  Sign in as **AllanD@yourtenant.onmicrosoft.com** with the password that was assigned by your lab hosting service.   
 
-3.  Browse to `https://myapps.microsoft.com`. 
+1. Browse to the self service password registration page at [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
-4.  At the **More information required** screen, click **Next**.
+1. On the **Security info** page, click **Add method**. Select your desired authentication method such as **Phone** and proceed through the setup steps.
 
-5.  Enter your phone number and choose **text** or **call me** then click **Next**.
+>**Note** 
+If prompted to use an email you will need to use an e-mail address other than the tenant domain provided for this lab. If one is not available, you can skip the e-mail verification and continue with the next step. Sign in to your email account, read the code, type it in the verification field, and then select **Verify**. 
+    
+>**Note** 
+If you don’t find a message with a code in your inbox, check the junk folder.
 
-6.  Enter the code you receive and click **Next**.
+#### Task 3: Test self-service password reset
 
-7.  Click **Next** and then **Done**.
+1. Go to `https://aka.ms/sspr` and enter the username for Alan (**AllanD@yourtenant.onmicrosoft.com**). Complete the Captcha below and click **Next**.
 
-8.  Go to `https://aka.ms/sspr` and enter the username for Alan.
-
-9.  Complete the Captcha and click **Next**.
-
-10. Enter your phone number and then click **Text**.
+1. Request verification using the method that you configured in the previous task.
 
 11. Enter the verification code you received and then click **Next**.
 
 12. Enter a **new password** and click **Finish**.
-
-
-    _Note: If prompted to use an email you will need to use an e-mail address other than the tenant domain 
-    provided for this lab. If one is not available, you can skip the e-mail 
-    verification and continue with the next step. Sign in to your email account, read the code, type it in the verification field, and then select **Verify**. 
-    
-    _Note: If you don’t find a message with a code in your inbox, check the junk folder.
-
 
 # Continue to Exercise 2
