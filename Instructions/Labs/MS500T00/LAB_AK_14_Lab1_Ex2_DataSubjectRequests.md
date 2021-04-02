@@ -55,39 +55,37 @@ You have created a data subject request and you have searched for the personal i
 
 When someone files a DSR, you typically need to export the results. In this task, Holly will export the DSR report for the previous case for further processing.
 
-1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **Export report** at the top of the page.
+1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **More > Export report** at the top of the page.
 
-3. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
+1. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
 
-4. Scroll down through the **Export report** window to see the estimated items that will be exported. 
+1. Scroll down through the **Export report** window to see the estimated items that will be exported. 
 
-5. Select **Generate report**.
+1. Select **Generate report**.
 
-6. If a **Client Error** dialog box appears it may be a result of the search still running, select **OK** and wait for the search to complete to generate the report again. 
+1. If a **Client Error** dialog box appears it may be a result of the search still running, select **OK** and wait for the search to complete to generate the report again. 
 
-7. In the **Holly Dickson Subject Request** window, select **Close**. 
+1. Select the **Exports** tab from the top menu and open the **Holly Dickson Subject Request_ReportsOnly** export request.
 
-8. Select the **Exports** tab from the top menu and open the **Holly Dickson Subject Request_ReportsOnly** export request.
+1. In the right pane select **Download report** and when the download bar appears at the lower end of your browser, select **Open**.
 
-9. In the right pane select **Download report** and when the download bar appears at the lower end of your browser, select **Open**.
+1. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Office 365 eDiscovery Export Tool**. Select the **Install** button.
 
-10. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Office 365 eDiscovery Export Tool**. Select the **Install** button.
+1. When the **eDiscovery Export Tool** is installed, you need to copy the unique export key to the first text field. Go back to the **Holly Dickson Subject Request_ReportsOnly** export request in your browser window and below **Export key**, select **Copy to clipboard**.
 
-11. When the **eDiscovery Export Tool** is installed, you need to copy the unique export key to the first text field. Go back to the **Holly Dickson Subject Request_ReportsOnly** export request in your browser window and below **Export key**, select **Copy to clipboard**.
+1. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
 
-12. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
+1. Select the **Browse** button and in the **Browse For Folder** window, navigate to **Documents**. Select **OK**.
 
-13. Select the **Browse** button and in the **Browse For Folder** window, navigate to **Documents**. Select **OK**.
+1. Start the export process by selecting **Start**.
 
-14. Start the export process by selecting **Start**.
+1. As soon as the **eDiscovery Export Tool** shows three green checkmarks with a **The export completed successfully.** message below, the export is done, and you can view the results by opening the blue link next to **Export Location**.
 
-15. As soon as the **eDiscovery Export Tool** shows three green checkmarks with a **The export completed successfully.** message below, the export is done, and you can view the results by opening the blue link next to **Export Location**.
+1. You can now see a **results.csv** file that contains a report about all DSR case items found.
 
-16. You can now see a **results.csv** file that contains a report about all DSR case items found.
+1. Close the **eDiscovery Export Tool** with the **Close** button, and then close the **eDiscovery** browser tab.
 
-17. Close the **eDiscovery Export Tool** with the **Close** button, and then close the **eDiscovery** browser tab.
-
-18. Leave **Holly** signed in at the **Security &amp; Compliance Center**.
+1. Leave **Holly** signed in at the **Security &amp; Compliance Center**.
 
 You have successfully exported a DSR case report to your local computer. Because the report contains only a report and not the message or document content, you could not process this report to fulfill the DSRs legal requirements.
 
