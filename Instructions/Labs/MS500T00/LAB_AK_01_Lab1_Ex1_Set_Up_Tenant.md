@@ -154,7 +154,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 8. In the **Optional settings** window, in the Roles section select **Admin center access** By doing so, all the Microsoft 365 administrator roles are now enabled and available to be assigned.
 
-10. Select **Global Admin** and then select **Next**.
+10. Select **Global Administrator** and then select **Next**.
 
 11. On the **Review and finish** window, review your selections. If anything needs to be changed, select the appropriate **Edit** link and make the necessary changes. Otherwise, if everything is correct, select **Finish adding**. 
 
