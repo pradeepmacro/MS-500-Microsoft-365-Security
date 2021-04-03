@@ -7,13 +7,13 @@ In this exercise, you will configure retention tags and policies, and you will i
 
 As part of your pilot project for Adatum, you will configure MRM retention by creating an MRM retention tag and adding it to a new MRM retention policy. You will also assign several default tags to the policy as well. You will then assign this retention policy to Joni Sherman and Alex Wilber's mailboxes.
 
-1. On LON-CL1 virtual machine. In **Microsoft Edge**, select the **Microsoft 365 admin center** tab.
+1. On LON-CL1 virtual machine. In **Microsoft Edge**, navigate to the [**Microsoft 365 admin center**](https://admin.microsoft.com/).
 
-2. In the **Microsoft 365 admin center**, in the left navigation pane, select **…Show all**.
+2. In the **Microsoft 365 admin center**, in the left navigation pane, select **… Show all**.
 
 3. In the left navigation pane, under **Admin centers,** select **Exchange**. This will open the Exchange admin center.
 
-4. In the **Exchange admin center**, in the left navigation pane, select **compliance management**.
+4. In the **Exchange admin center**, in the left navigation pane, select **Classic Exchange admin center** and then **Compliance management**.
 
 5. In the **compliance management** window, select the **retention tags** tab that appears at the top of the page.
 
@@ -78,25 +78,23 @@ You have now created a new retention policy with several retention tags, includi
 
 As part of your pilot project for Adatum, you will create a retention policy in the Security & Compliance Center to preserve the content of all Exchange Online mailboxes from deletion for 7 years after the last modification. 
 
-1. In **Microsoft Edge**, select the **Security &amp; Compliance Center** tab that you left open after completing Task 1.  You should still be logged in as Holly Dickson.
+1. In **Microsoft Edge**, go to the [**Microsoft 365 compliance**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
 
-2. In the left navigation pane, select **Information Governance** and then select **Retention**.
+2. In the left navigation pane, click **Information Governance** (you might need to click **... Show all** first) and then select the **Retention** tab.
 
-3. In the **Retention** window, select **+Create** to start the wizard that’s used to create a new retention policy.
+3. In the **Retention** tab, click **+ New retention policy** to start the wizard that’s used to create a new retention policy.
 
 4. On the **Name your policy** page, type **Exchange Preservation** in the **Name** field and select **Next**.
 
-5. On the **Decide if you want to retain content, delete it, or both** page, leave the **Yes, I want to retain it** option selected, as well as the **For this long** and **7 years**. Do not change these fields. However, in the **Retain the content based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when it was last modified**. 
+1. In the **Choose locations** page,  deselect all sliders except for **Exchange email.**. Click **Next**.
 
-6. Select **Next**.
+5. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Retain the content based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**. 
 
-7. In the **Choose locations** page, select **Let me choose specific locations.** 
+6. Click **Next**.
 
-8. Scroll down the page and deselect all sliders except for **Exchange email.**
 
-9. Select **Next**.
 
-10. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Create this policy** to finish the wizard.
+10. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Submit** to finish the wizard.
 
 11. Do not close your Client 1 VM or Microsoft Edge. Leave your web browser open as well as all tabs for the next lab.
 

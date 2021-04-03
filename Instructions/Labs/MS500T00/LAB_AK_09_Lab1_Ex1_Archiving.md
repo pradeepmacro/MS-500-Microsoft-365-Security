@@ -6,16 +6,14 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have Micro
 
 In this next phase of your Adatum pilot project, you will access the Security & Compliance Center to activate Holly Dickson’s archive mailbox.   
 
-1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com/). Click **Information governance** in the left pane. In the **Information governance** window, click the **Archive** tab. 
+1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com/). Click **Information governance** in the left pane (you might to click **... Show all** at the bottom before it appears). In the **Information governance** window, click the **Archive** tab. 
 
 3. On the **Archive** window, note that the archive mailboxes for all users other than Holly Dickson are enabled. These archive mailboxes were enabled when the VMs were built for this training course and these users were preconfigured in the tenant. However, since you added Holly in an earlier lab, her archive mailbox is disabled by default.
 
-4. To enable Holly’s archive mailbox, select **Holly Dickson** in the user list. 
+4. To enable Holly’s archive mailbox, click the three vertical dots to the right of the name, then click **Enable archive** on the submenu that opens. 
 
-5. In the details pane on the right, Holly’s archive mailbox is currently listed as disabled. Select **Enable**, and then in the **Warning** message that appears, select **Yes** to confirm this action.
+5. On the **Warning** screen that opens, click **Enable** to confirm. 
 
-6. In your Microsoft Edge browser, leave the Office 365 Security & Compliance Center tab open as you will use it in a later task in this lab. 
-
-
+1. Back on the **Archive** tab, click **Refresh** to see that the **Archive mailbox** status for Holly Dickson has changed to **Enabled**.
 
 # Proceed to Exercise 2
