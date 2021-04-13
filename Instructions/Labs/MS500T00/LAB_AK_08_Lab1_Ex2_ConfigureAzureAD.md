@@ -8,7 +8,7 @@ In this exercise you will activate the automatic client enrollment to Intune for
 
 2. In the **Azure portal** , in the **All services** box, search for and select **Azure Active Directory**.
 
-3. On the **Adatum Corporation - Overview** window, in the middle pane under **Manage** select **Mobility (MDM and MAM),** and then in the details pane on the right, select **Microsoft Intune**.
+3. On the **Adatum Corporation - Overview** window, in the left pane under **Manage** select **Mobility (MDM and MAM),** and then in the details pane on the right, select **Microsoft Intune**.
 
     **Note:** If you see a notification that automatic enrollment is available only for Azure AD Premium, press F5 to refresh the page in your web browser and then select **Microsoft Intune**.
 
@@ -29,21 +29,21 @@ You have now configured your tenant so that all users can enroll their clients t
 
 1. In the **Azure portal** , in the left navigation pane, select **Azure Active Directory.**
 
-2. In the **Adatum Corporation – Overview** window, in the middle section under **Manage**, select **Devices**.
+2. In the **Adatum Corporation – Overview** window, in the left section under **Manage**, select **Devices**.
 
 3. In the **Devices – All devices** window, in the details pane on the right, verify that no devices are listed. This is because no device has yet to be joined to Azure Active Directory.
 
-4. In the **Devices – All devices** window, in the middle pane, select **Device settings**.
+4. In the **Devices – All devices** window, in the left pane, select **Device settings**.
 
-5. In the details pane that appears on the right, in the **Users may join devices to Azure AD** row, Currenlty set to **All**, This means that all Azure AD users can join their devices to Azure Active Directory. Select **Selected**.
+5. In the details pane that appears on the right, the property **Users may join devices to Azure AD** is currently set to **All**. This means that all Azure AD users can join their devices to Azure Active Directory. Click **Selected** instead.
 
-6. Below this field, in the **Selected** section (where it displays **No member selected**), select this section.
+6. Below this field, in the **Selected** section click **No member selected**.
 
 7. In the **Members allowed to join devices** window, select **+Add**
 
 8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
 
-9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Require Multi-Factor Auth to join devices** is set to **No**. The **Maximum number of devices per user** is currently set to **50.** Select this field and in the menu that appears, select **10.**
+9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
 
 10. In the menu bar at the top of the detail pane, select **Save**.
 
@@ -56,7 +56,7 @@ You have changed the default settings for users to join their devices to your Az
 
 1. In the **Azure portal** , in the left navigation pane, select **Azure Active Directory.**
 
-2. In the **Adatum Corporation – Overview** window, in the middle section under **Manage,** select **Groups**.
+2. In the **Adatum Corporation – Overview** window, in the left section under **Manage,** select **Groups**.
 
 3. In the **Groups – All groups** window, in the details pane on the right, select **+New group** on the menu bar.
 
@@ -67,7 +67,7 @@ You have changed the default settings for users to join their devices to your Az
     - Membership type: **Dynamic Device**
     - Owner: select the **No owners selected** link, then in the **Add Owners** window, select `Alex Wilber` and select **Select**.
 
-5. At the bottom of the window, select the **Add dynamic query**
+5. Under **Dynamic device members**, click **Add dynamic query**.
 
 6. On the **Dynamic membership rules** pane, configure the following fields for this expression:
 

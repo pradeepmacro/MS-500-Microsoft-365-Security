@@ -38,7 +38,7 @@ When you need to take on an Azure AD directory role, you can request activation 
  
 1.  Once returned to the Azure Portal, click **All services** and search for and select `Azure AD Privileged Identity Management`.
 
-1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick start blade.
+1.  Select **Azure AD Roles** then click **Activate your role** on the Quick start blade.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 

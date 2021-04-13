@@ -11,11 +11,11 @@ As part of your pilot project for Adatum, you will configure MRM retention by cr
 
 2. In the **Microsoft 365 admin center**, in the left navigation pane, select **… Show all**.
 
-3. In the left navigation pane, under **Admin centers,** select **Exchange**. This will open the Exchange admin center.
+3. In the left navigation pane, under **Admin centers** select **Exchange**. This will open the Exchange admin center.
 
 4. In the **Exchange admin center**, in the left navigation pane, select **Classic Exchange admin center** and then **Compliance management**.
 
-5. In the **compliance management** window, select the **retention tags** tab that appears at the top of the page.
+5. In the **Compliance management** window, select the **retention tags** tab that appears at the top of the page.
 
 6. You want to create a retention tag, so select the **plus (+)** **sign** in the toolbar that appears across the list of existing retention tags. In the drop-down menu that appears, select **applied by users to items and folders (personal)**.
 

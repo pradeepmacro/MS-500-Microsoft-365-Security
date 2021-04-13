@@ -20,21 +20,27 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 7. Select **Save**.  Click **OK**.
 
-8. Select the **plus (+)** sign to add a new recipient policy.
+8. Select the **+ Create** to add a new recipient policy.
 
-9. Insert the following to the windows fields:
+9. On the **Name your policy** pane, enter `All company users` in the **Name** field.
 
-    - Name: `All company users`
+1. On the **Settings** pane, select the following options:
 
-    - Select the action for unknown potentially malicious URLs in messages: This is set to Off by default. Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
+    - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
 
-    - Check the **Apply safe links to email messages sent within the organization** check box.
+    - Also select **On** for unknown or potentially malicious URLs within Microsoft Teams.
 
-    - In the **Applied To** section, click the **+ Add a condition** drop down arrow, and then in the drop-down menu, select **The recipient domain is** and click "**Choose**".
+    - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
-    - In the pop-up window that appears, click "**+ Add**", select the available domain **M365xZZZZZZ.onmicrosoft.com**. Click **add-** and then select **Done** and **Next**
+    - Select the check box next to **Apply safe links to email messages sent within the organization**.
 
-10. Select **Finish** and click **Yes** to close the window.
+1. On the **Notification** pane, leave the default notification text selected.
+
+1. On the **Applied To** section, click the **+ Add a condition** drop down arrow, and then in the drop-down menu, select **The recipient domain is** and click "**Choose**".
+
+    - In the pop-up window that appears, click "**+ Add**", select the available domain **M365xZZZZZZ.onmicrosoft.com**. Click **Add** and then select **Done** and **Next**
+
+10. On the **Review your settings** pane, select **Finish** to create the policy.
 
 11. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 

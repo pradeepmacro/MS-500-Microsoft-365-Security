@@ -29,7 +29,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 10. Switch to the Client 2 VM (**LON-CL2**). You should still be logged into **LON-CL2** as the **LON-CL2\Admin** account, and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
 
-11. If you have a tab open in your **Edge** browser for the **Microsoft 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://protection.office.com`.
+11. If you have a tab open in your **Edge** browser for the **Office 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://protection.office.com`.
 
 12. In the **Security and Compliance Center**, in the left navigation pane, select **Search**, and then under it select **Content search**.  
 
@@ -41,9 +41,9 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 15. On the Locations page, select **All locations** and then select **Next**.
 
-16. On the Condition card page, enter **SSN** press enter and type **social** into the Keywords box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Finish**.
+16. On the **Condition card** page, enter **SSN** press enter and type **social** into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Finish**.
 
-17. Back on the Searches tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy.  
+17. Back on the **Searches** tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy.  
 
 If you didn't send emails during the DLP lab earlier in the course then no data will appear in this search.  If this happened, while the search is running, you could switch back to **LON-CL1** and send emails with the keyword terms mentioned in this lab to other users in your tenant.  You may have to run this search again to view data if you do that.
 

@@ -58,14 +58,18 @@ After the access review period is over, or all the users have finished their sel
 
 
 
-1.  Go to the **Azure portal** and select the `Azure AD Privileged Identity Management`.
+1. Go to the **Azure portal** and select the `Azure AD Privileged Identity Management`.
 
-1.  Select **Azure AD Roles**.
+1. Select **Azure AD Roles**.
 
-2.  Select the **Access reviews**.
+2. Select the **Access reviews**.
 
+3. Select the Global Admin Review. 
 
-3.  Select the Global Admin Review. Review the blade.
+4. Choose one of the available options for completing the review:
+     - **Stop** - All access reviews have an end date, but you can use the Stop button to finish it early. If any users haven't been reviewed by this time, they won't be able to after you stop the review. You cannot restart a review after it's been stopped.
+     - **Apply** - After an access review is completed, either because you reached the end date or stopped it manually, the Apply button implements the outcome of the review. If a user's access was denied in the review, this is the step that will remove their role assignment.
+     - **Delete** - If you are not interested in the review any further, delete it. The Delete button removes the review from the Privileged Identity Management service.
 
 
 ### Task 4: Configure security alerts for Azure AD directory roles in PIM
