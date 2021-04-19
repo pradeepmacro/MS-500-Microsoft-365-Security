@@ -16,7 +16,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 5. In the **Safe Links** window, click **Global Settings**.
 
-6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` and then select the **plus (+)** sign to add it to the policy.
+6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
 
 7. Select **Save**.  Click **OK**.
 
@@ -112,21 +112,21 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 4. In the **Policy** window, select the **Safe Attachments** tile.
 
-5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on ATP for SharePoint, OneDrive and Microsoft Teams** switch.
+5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on Defender for Office 365 for SharePoint, OneDrive and Microsoft Teams** switch. Select **Save**.
 
-6. Select the **plus (+) sign** on the menu bar to add a new safe attachments policy.
+6. Select the **+ Create** on the menu bar to add a new safe attachments policy.
 
 7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**
 
 8. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 
-9. Under the **Redirect attachment on detection** section, select **Enable redirect**.
+9. Under the **Redirect attachment on detection** section, select **OK**.
 
 10. In the **Send the attachment to the following email address** field, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
 11. Scroll down in the window and under the **Applied To** section, under **If** (the first condition), select the drop-down arrow and select **The recipient domain is...**
 
-12. In the **NAME** dialog box, select the **M365xZZZZZZ.onmicrosoft** domain (where ZZZZZZ is your tenant ID provided by your lab hosting provider), select **add->**, and then select **OK** then click **Next**.
+12. In the **NAME** dialog box, select the **M365xZZZZZZ.onmicrosoft** domain (where ZZZZZZ is your tenant ID provided by your lab hosting provider), select **add->**, and then select **Done** then click **Next**.
 
 13. On the **Review Settings** window, note the two messages displayed regarding the **Dynamic Delivery** and **Enable redirect** options that were selected. select **Finish**.
 
