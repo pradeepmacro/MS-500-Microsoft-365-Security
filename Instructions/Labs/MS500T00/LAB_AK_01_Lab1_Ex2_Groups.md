@@ -72,9 +72,9 @@ In this task, you will create two new groups and then manage the groups by assig
 
 22. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
 
-23. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Save**. 
+23. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
 
-24. Select **Close**. This displays the list of users for this group. Select **Close** again. 
+24. Select **Back arrow**. 
 
 25. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window. 
 
@@ -129,7 +129,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
-5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Groups** to display the list of groups. 
+5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Active Groups** to display the list of groups. 
 
 6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Internet Explorer.
 

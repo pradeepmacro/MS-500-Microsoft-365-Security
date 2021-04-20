@@ -32,7 +32,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 ### Task 2: Configure and launch a Spear Phishing attack
 
 1.  Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
-1. Click the **Simulations** tab. 
+1. Click the **Simulations** tab. Select **+ Launch a Simulation**.
 1. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
 
 1.  Name the simulation `Spear Simulation` and select **Next**.
