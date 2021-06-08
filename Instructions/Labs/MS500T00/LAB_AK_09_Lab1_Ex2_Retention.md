@@ -33,7 +33,7 @@ As part of your pilot project for Adatum, you will configure MRM retention by cr
 
 13. You want to create a retention policy, so select the **plus (+)** **sign** in the toolbar that appears across the list of existing retention policies. 
 
-14. In **new retention policy** window, under **Name**, type **Office Retention Policy**.
+14. In **new retention policy** window, under **Name**, type `Office Retention Policy`.
 
 15. Below **Retention tags**, select the **(+)** sign.
 
@@ -80,11 +80,11 @@ As part of your pilot project for Adatum, you will create a retention policy in 
 
 1. In **Microsoft Edge**, go to the [**Microsoft 365 compliance**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
 
-2. In the left navigation pane, click **Information Governance** (you might need to click **... Show all** first) and then select the **Retention** tab.
+2. In the left navigation pane, click **Information Governance** (you might need to click **... Show all** first) and then select the **Retention policies** tab.
 
-3. In the **Retention** tab, click **+ New retention policy** to start the wizard that’s used to create a new retention policy.
+3. In the **Retention policies** tab, click **+ New retention policy** to start the wizard that’s used to create a new retention policy.
 
-4. On the **Name your policy** page, type **Exchange Preservation** in the **Name** field and select **Next**.
+4. On the **Name your policy** page, type `Exchange Preservation` in the **Name** field and select **Next**.
 
 1. In the **Choose locations** page,  deselect all sliders except for **Exchange email.**. Click **Next**.
 
