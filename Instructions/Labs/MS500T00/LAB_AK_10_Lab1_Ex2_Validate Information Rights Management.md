@@ -59,7 +59,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 3. In the **SharePoint admin center**, in the left navigation pane, select **Sites**, then **Active sites**.
 
-4. On the **Active sites** page, select the **+ sign** to  **Create**.
+4. On the **Active sites** page, select **+ Create**.
 
 5. Scroll down to **Other options** then in the **Choose a template** drop down box choose **More Templates**
 
