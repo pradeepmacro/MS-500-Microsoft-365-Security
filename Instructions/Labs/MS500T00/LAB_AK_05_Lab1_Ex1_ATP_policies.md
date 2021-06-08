@@ -18,13 +18,15 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
 
-7. Select **Save**.  Click **OK**.
+7. Select **Save**.
 
 8. Select the **+ Create** to add a new recipient policy.
 
-9. On the **Name your policy** pane, enter `All company users` in the **Name** field.
+9. On the **Name your policy** pane, enter `All company users` in the **Name** field. Click **Next**.
 
-1. On the **Settings** pane, select the following options:
+10. On the **Users and domains** pane, enter `All Company`in the **Users** field, select it from the list. Click **Next**.
+
+11. On the **Protection settings** pane, select the following options and click **Next**:
 
     - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
 
@@ -34,15 +36,11 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
     - Select the check box next to **Apply safe links to email messages sent within the organization**.
 
-1. On the **Notification** pane, leave the default notification text selected.
+12. On the **Notification** pane, leave the default notification text selected. Click **Next**.
 
-1. On the **Applied To** section, click the **+ Add a condition** drop down arrow, and then in the drop-down menu, select **The recipient domain is** and click "**Choose**".
+13. On the **Review** pane, select **Submit** to create the policy.
 
-    - In the pop-up window that appears, click "**+ Add**", select the available domain **M365xZZZZZZ.onmicrosoft.com**. Click **Add** and then select **Done** and **Next**
-
-10. On the **Review your settings** pane, select **Finish** to create the policy.
-
-11. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
+14. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 
@@ -116,21 +114,19 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 6. Select the **+ Create** on the menu bar to add a new safe attachments policy.
 
-7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**
+7. In the new safe attachments policy window, enter `AttachmentPolicy1` in the **Name** field then select **Next**.
 
-8. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
+8. In the **Users and domains**, enter `All Company` in the **Users** field then select **Next**.
 
-9. Under the **Redirect attachment on detection** section, select **OK**.
+9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 
-10. In the **Send the attachment to the following email address** field, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+10. Under the **Redirect messages with detected attachments** section, select **Enable redirect**.
 
-11. Scroll down in the window and under the **Applied To** section, under **If** (the first condition), select the drop-down arrow and select **The recipient domain is...**
+11. In the **Send messages that contain blocked, monitored, or replaced attachments to the specified email address** field, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
-12. In the **NAME** dialog box, select the **M365xZZZZZZ.onmicrosoft** domain (where ZZZZZZ is your tenant ID provided by your lab hosting provider), select **add->**, and then select **Done** then click **Next**.
+1. On the **Review** window, note the two messages displayed regarding the **Safe Attachents detection response:** and **Redirect attachments:** options that were selected. select **Submit**.
 
-13. On the **Review Settings** window, note the two messages displayed regarding the **Dynamic Delivery** and **Enable redirect** options that were selected. select **Finish**.
-
-14. It may take a minute or so to update the organization settings. In the **Update complete** window, select **OK**.
+12. It may take a minute or so to update the organization settings. In the **Update complete** window, select **OK**.
 
 **NOTE:** Unfortunately, we are unable to create a training lab in which you can validate the ATP Safe Attachments policy that you just created. To do so, you must send an email that contains a malicious attachment. There are some common test viruses that are available, such as the EICAR test virus; however, with well-known test viruses such as EICAR, the messages in which they are attached get quarantined before they can be processed by Office 365 ATP. Since ATP Safe Attachments functionality is meant to protect against unknown and zero-day viruses and malware, it is very difficult, and not recommended, to create such an attachment.
 
