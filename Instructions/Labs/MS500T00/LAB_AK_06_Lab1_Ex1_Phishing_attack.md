@@ -31,14 +31,14 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 ### Task 2: Configure and launch a Spear Phishing attack
 
-1.  Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
+1. Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
 1. Click the **Simulations** tab. Select **+ Launch a Simulation**.
 1. On the **Select Technique** screen. Ensure that **Credential Harvest** is selected. Click **Next**.
 
-1.  Name the simulation `Spear Simulation` and select **Next**.
+1. Name the simulation `Spear Simulation` and select **Next**.
 1. On the **Select Payload** screen, select a desired payload from the list of provided payloads. Click **Next**.
 
-5.  In the **Target Users** screen, do the following:
+1. In the **Target Users** screen, do the following:
 	1. Ensure **Include only specific users and groups** is selected. 
 	1. Click **Add Users**. 
 	1. On the **Add Users** screen, type  **Patti Fernandez** in the search box and hit Enter. 
@@ -46,24 +46,25 @@ Holly Dickson is concerned that some users in her organization may require educa
 	1. Click **Add 1 User** at the bottom. 
 	1. Click  **Next**.
 1. Leave the default settings on the **Assign training** screen. Click **Next**.
+1. On the **Training landing page** screen, click **Next**.
 1. On the **Launch Details** page, ensure that **Launch this simulation as soon as I'm done** is selected. Click **Next**.
 1. On the **Review Simulation** screen, click **Submit**.
 
 ### Task 3: Confirm target received phishing email attack
 
-2.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
+1.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
  
-3.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
+1.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
-4.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
+1.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
 
 ### Task 4: Review the results
 
-3. In your browser session where you are logged in as Holly Dickson go back to the [Attack simulation training](https://security.microsoft.com/attacksimulator). Click the **Simulations** tab.
+1. In your browser session where you are logged in as Holly Dickson go back to the [Attack simulation training](https://security.microsoft.com/attacksimulator). Click the **Simulations** tab.
 
-4. In the Spear Phishing (Credentials Harvest) area click **Attack Details**.  Notice in the Attack History area it lists how many users were compromised by the attack.
+1. In the Spear Phishing (Credentials Harvest) area click **Attack Details**.  Notice in the Attack History area it lists how many users were compromised by the attack.
 
-5. In the Attack History area if you select the Export button it will export a list of users who fell victim to the simulated spear-phishing attack.  
+1. In the Attack History area if you select the Export button it will export a list of users who fell victim to the simulated spear-phishing attack.  
     
 	**Note**: Since you can run multiple spear phishing simulation campaigns simultaneously you could create different simulations for different users and groups.  These different simulations might have enticements that are more appropriate for different users.
  
