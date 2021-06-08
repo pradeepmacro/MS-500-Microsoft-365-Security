@@ -41,7 +41,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 15. On the Locations page, select **All locations** and then select **Next**.
 
-16. On the **Condition card** page, enter **SSN** press enter and type **social** into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Finish**.
+16. On the **Condition card** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Finish**.
 
 17. Back on the **Searches** tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy.  
 
@@ -89,7 +89,7 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 15. On the **Choose locations** page, **1 user, group, or team** is displayed to the right of **Exchange email**. Select **Next**.
 
-16. On the **Query conditions** page, enter **SSN** press enter and then type **social** into the **Keywords** box.  This will search for those two terms independently. Then select **Next**.
+16. On the **Query conditions** page, enter `SSN` press enter and then type `social` into the **Keywords** box.  This will search for those two terms independently. Then select **Next**.
 
 17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select **Create this hold**, then select **Close**.
 
