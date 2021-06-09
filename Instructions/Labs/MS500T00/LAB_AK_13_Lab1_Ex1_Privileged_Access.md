@@ -28,7 +28,7 @@ Before you start using privileged access, determine who needs approval authority
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
-10.  Select + Add members search for MOD Administrator. Select MOD Administrator and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
+10.  Select **+ Add members**. Search for **MOD Administrator**. Select **MOD Administrator** and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
 
 **Note:** Holly Dickson is listed as the owner of the group you just created. She is therefore part of the Privileged Access Approval Group. In practice, and to support the scenario, you would make MOD Administrator the owner of the group and leave Holly out of it to prevent her from being able to approve her own privileged access requests.
 
