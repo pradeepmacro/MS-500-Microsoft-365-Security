@@ -10,7 +10,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 4. At the top of the left navigation pane, select **New message** to create a new email.
 
-5. You want to send the email to **Alex Wilber**. Type **Alex** in the **To** field, which displays a dialog box that displays all users whose Display Name starts with Alex (of which there is just one). Select **Alex Wilber**.
+5. You want to send the email to **Alex Wilber**. Type `Alex` in the **To** field, which displays a dialog box that displays all users whose Display Name starts with Alex (of which there is just one). Select **Alex Wilber**.
 
 6. Enter a **Subject**, and then type some text in the message body. 
 
@@ -117,7 +117,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 24. In the **Pick an Account** window, select **Alex Wilber** if his account is listed; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) the password is likely the same as your MOD admin assigned by your lab hosting provider.
 
-25. On the **taskbar of your VM**, select the **Search** icon and type **WordPad** in the Search field. Select **WordPad** that’s displayed.
+25. On the **taskbar of your VM**, select the **Search** icon and type `WordPad` in the Search field. Select **WordPad** that’s displayed.
 
 26. In the WordPad window, enter some text for a new test document. 
 
