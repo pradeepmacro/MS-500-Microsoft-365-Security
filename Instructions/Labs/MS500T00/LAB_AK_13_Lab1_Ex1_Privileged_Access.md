@@ -20,7 +20,7 @@ Before you start using privileged access, determine who needs approval authority
 
 5.  In the **Set up the basics** screen enter the Name `Privileged Access Approval Group` and enter a similar description and then select **Next**.
 
-6.  In the **Edit settings** screen for the group email alias type **access**, tab to the next field to ensure it's acceptable, then select **Next**.
+6.  In the **Edit settings** screen for the group email alias type `access`, tab to the next field to ensure it's acceptable, then select **Next**.
 
 7.  In the **Review and finish adding group** screen select **Create group**. Select **Close**.
 
@@ -28,7 +28,7 @@ Before you start using privileged access, determine who needs approval authority
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
-10.  Select **+ Add members** search for `MOD Administrator`.  Select MOD Administrator and click **Save**. Click **Close** twice to return to the **Groups** screen.
+10.  Select **+ Add members**. Search for **MOD Administrator**. Select **MOD Administrator** and click **Add (1)**. Close the **Privileged Access Approval Group** screen to return to the Groups screen.
 
 **Note:** Holly Dickson is listed as the owner of the group you just created. She is therefore part of the Privileged Access Approval Group. In practice, and to support the scenario, you would make MOD Administrator the owner of the group and leave Holly out of it to prevent her from being able to approve her own privileged access requests.
 
@@ -41,7 +41,7 @@ Before you start using privileged access, determine who needs approval authority
 
 3. In the Privileged Access screen make sure **Allow Priviledged access requests and choose default approval group** is **Checked**.
 
-4.  Select the **Privileged Access Approval Group** as the **Default approval group**.  Click **Save** and **Close**.
+4.  Select the **Privileged Access Approval Group** as the **Default approval group**.  Click **Save** and close the **Add Policy** window.
 
 
 ### Task 3 - Create a privileged access policy
@@ -54,9 +54,9 @@ It has been decided that Exchange mailbox moves tasks will require privileged ac
 
 3. In the Privileged Access screen select **Create policies and manage requests**.
 
-4. Select **manage policies** and then select **+ Add a policy**.
+4. Select **manage policies** and then select **+ Add policy**.
 
-5. In the **Add Policy** window select the following:
+5. In the **Add policy** window select the following:
 
 Policy type = **Role**
 
@@ -66,7 +66,7 @@ Policy name = **Move Mailboxes**
 
 Approval type = **Manual**
 
-6. Select the **Privileged Access Approval group** as the **Approvers** and select **Create**.  Select **Close**
+6. Select the **Privileged Access Approval group** as the **Approvers** and select **Create**.  Close the **Request access** window.
 
 
 

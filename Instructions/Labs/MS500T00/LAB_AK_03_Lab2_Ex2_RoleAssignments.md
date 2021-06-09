@@ -21,7 +21,7 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
 1.  In the **Select a member screen** select `Patti Fernandez` and then click **Select**.
 
-1.  In Add assignments screen on the Setting tab uncheck the **Permanently eligible** checkbox. Click **Assign**.  Review the added member in the assignment window.
+1.  In Add assignments screen, click **Next**. Click **Assign**.  Review the added member in the assignment window.
 
 1.  When the role is assigned, the user you selected will appear in the members list as **Eligible** for the role. 
 
